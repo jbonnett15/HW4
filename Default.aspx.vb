@@ -5,9 +5,6 @@ Partial Class _Default
 
 
         Protected Sub btn_calcweeklywage_Click(sender As Object, e As EventArgs) Handles btn_calcweeklywage.Click
-        'clear old results
-        lbl_netpay.Text = String.Empty
-        lbl_WeeklyWageResult.Text = String.Empty
 
         'create variables to hold values entered by the user
         Dim HoursWorked As Decimal = Val(tb_HoursWorked.Text)
@@ -40,15 +37,13 @@ Partial Class _Default
 
     End Sub
 
-    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
+
+
+    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles btn_Clear.Click
         tb_aftertaxdeductions.Text = String.Empty
         tb_HourlyWage.Text = String.Empty
         tb_HoursWorked.Text = String.Empty
         tb_pretaxdeductions.Text = String.Empty
-    End Sub
-
-    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles btn_Clear.Click
-
     End Sub
 End Class
 
