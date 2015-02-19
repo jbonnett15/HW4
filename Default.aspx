@@ -34,6 +34,7 @@
         </p>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:Button ID="btn_calcweeklywage" runat="server" Height="25px" Text="Calculate Weekly Wage" Width="223px" />
+        <asp:Button ID="btn_Clear" runat="server" style="margin-left: 11px" Text="Clear" />
         <p>
             Net Pay:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:Label ID="lbl_WeeklyWageResult" runat="server"></asp:Label>
         </p>

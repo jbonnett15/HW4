@@ -41,6 +41,13 @@ Partial Class _Default
     End Sub
 
     Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
+        tb_aftertaxdeductions.Text = String.Empty
+        tb_HourlyWage.Text = String.Empty
+        tb_HoursWorked.Text = String.Empty
+        tb_pretaxdeductions.Text = String.Empty
+    End Sub
+
+    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles btn_Clear.Click
 
     End Sub
 End Class
