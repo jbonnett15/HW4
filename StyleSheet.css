@@ -1,0 +1,53 @@
+﻿body {
+	font-family:Arial, Helvettica, sans-serif;
+	background-color:#333333;
+	}
+	
+header {
+	width:80%;
+	background-color:black;
+	color:white;
+	margin-right:auto;
+	margin-left:auto;
+	padding:10px;
+}
+
+h1{
+	font-size:2em;
+	margin:0;
+	padding:0;
+	padding-top:10px;
+}
+
+h2 {
+}
+
+h3 {
+}
+
+section {
+	width:80%;
+	background-color:black;
+	color:white;
+	margin-left:auto;
+	margin-right:auto;
+	border-color:white;
+	border-style:solid;
+	border-width:5px;
+}
+
+body {
+	border: 5px solid white;
+width:55%;
+	background-color:black;
+	color:white;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+
+
+p {
+	margin:10px;
+	}
+}
